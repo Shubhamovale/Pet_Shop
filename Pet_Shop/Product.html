@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="banner">Get free delivery on orders over 80Rs</div>
+        <nav>
+
+            <div  id="logo">
+                <img src="logo.png"  >  
+                <div > <label herf="index.ht">SM'S <br> Pet Store </label> </div>
+            </div>
+            <script>
+                // JavaScript to handle the click event
+                document.getElementById("logo").onclick = function() {
+                    // Redirect to another page when image is clicked
+                    window.location.href = "index.html";
+                };
+                </script>
+                
+            <ul class="navigation-menu">
+                <li><a href="Product.html">Products</a>
+
+
+                <li><a href="Services.html">Services</a>
+
+                </li>
+                <li><a href="index.html  ">Locations &amp; Hours</a>
+                </li>
+                <li>
+                    <a href="index.html">About Us</a>
+                </li>
+            </ul>
+            <div id="utility">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+
+            </div>
+        </nav>
+    </header>
+    <section>
+        <h2>Shop by Pet</h2>
+
+        <ul class="shop-pets">
+            <li class="card-large card-light" id="sup-dog">
+                <div class="card-image"><img
+                        src="dog with bag.png">
+                </div>
+                <ul>
+                    Dogs
+                    <li><a href="dogproduct.html">Food &amp; Treats</a></li>
+                    <li><a href="dogproduct.html">Toys</a></li>
+                    <li><a href="dogproduct.html">Beds &amp; Furniture</a></li>
+                    <li><a href="dogproduct.html">Outdoor Supplies</a></li>
+                    <li><a href="dogproduct.html">Clothing</a></li>
+
+                    <button id="dogshopall" class="btn-outline-light">Shop All<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+                </ul>
+            </li>
+
+            <li class="card-large card-dark" id="sup-cat">
+                <div class="card-image"><img
+                        src="sliping cat.png">
+                </div>
+                <ul>Cats
+                    <li><a href="catproduct.html">Food &amp; Treats</a></li>
+                    <li><a href="catproduct.html">Toys</a></li>
+                    <li><a href="catproduct.html">Beds &amp; Furniture</a></li>
+                    <button id="catshopall" class="btn-outline-dark">Shop All<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+                </ul>
+
+            </li>
+
+            <li class="card-large card-dark" id="sup-bird">
+                <div class="card-image"><img
+                        src="simple aprrow.png">
+                </div>
+                <ul>Birds
+                    <li><a href="birdproduct.html">Food &amp; Treats</a></li>
+                    <li><a href="birdproduct.html">Toys</a></li>
+                    <li><a href="birdproduct.html">Furniture</a></li>
+                    <button id="birdshopall" class="btn-outline-dark">Shop All<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+                </ul>
+
+            </li>
+            <li class="card-large card-light" id="sup-fish">
+                <div class="card-image"><img
+                        src="fish.png">
+                </div>
+                <ul>
+                    Fish
+                    <li><a href="fishproduct.html">Food</a></li>
+                    <li><a href="fishproduct.html">Aquariums</a></li>
+                    <li><a href="fishproduct.html">Rocks &amp; Decorations</a></li>
+                    <button id="fishshopall" class="btn-outline-light">Shop All<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+                </ul>
+
+            </li>
+        </ul>
+    </section>
+</body>
+<script>
+    document.getElementById("dogshopall").onclick = function () {
+        window.location.href = "dogproduct.html";
+    };
+</script>
+<script>
+    document.getElementById("catshopall").onclick = function () {
+        window.location.href = "catproduct.html";
+    };
+</script>
+<script>
+    document.getElementById("birdshopall").onclick = function () {
+        window.location.href = "birdproduct.html";
+    };
+</script>
+<script>
+    document.getElementById("fishshopall").onclick = function () {
+        window.location.href = "fishproduct.html";
+    };
+</script>
+
+</html>

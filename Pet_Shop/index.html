@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="banner">Get free delivery on orders over 80Rs</div>
+        <nav>
+
+            <div id="logo">
+                <img src="logo.png">
+                <div> <label herf="index.ht">SM'S <br> Pet Store </label> </div>
+            </div>
+            <script>
+                // JavaScript to handle the click event
+                document.getElementById("logo").onclick = function () {
+                    // Redirect to another page when image is clicked
+                    window.location.href = "index.html";
+                };
+            </script>
+
+            <ul class="navigation-menu">
+                <li><a href="Product.html">Products</a>
+
+
+                <li><a href="Services.html">Services</a>
+
+                </li>
+                <li><a href="#locate">Locations &amp; Hours</a>
+                </li>
+                <li><a href="#footer">About Us</a>
+                </li>
+            </ul>
+            <div id="utility">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Your One-Stop Shop for Every Pet's Needs!</h1>
+        <div class="btn-group">
+            <button id="shopallprodeucts" class="btn-filled-dark"><span class="material-symbols-outlined">
+                    shopping_cart
+                </span>Shop All Products</button>
+            <button id="bookaservice" class="btn-outline-dark btn-hover-color"><span class="material-symbols-outlined">
+                    calendar_month
+                </span> Book a Service</button>
+        </div>
+        <script>
+            document.getElementById("shopallprodeucts").onclick = function () {
+                window.location.href = "Product.html";
+            }
+        </script>
+        <script>
+                document.getElementById("bookaservice").onclick = function () {
+                    window.location.href = "Services.html";
+                }        
+        </script>
+
+    </section>
+    <img src="husky.png" alt="">
+
+
+
+    <section id="locate">
+
+        <div>
+            <h2>Location &amp; Hours</h2>
+            <p>Our knowledgeable and friendly staff is always ready to assist you in making the best choices for your
+                furry, feathered, or finned friends.</p>
+            <div class="btn-group">
+                <button id="loc" class="btn-filled-dark"><span class="material-symbols-outlined">
+                        pin_drop
+                    </span>Find a Store</button>
+                    <script>
+                        document.getElementById("loc").onclick = function () {
+                            window.location.href = "https://maps.app.goo.gl/33P9NphK4Uit1HZe9";
+                        }        
+                </script>
+                    
+                <button id="cont" class="btn-outline-dark btn-hover-color"><span class="material-symbols-outlined">
+                        contact_support
+                    </span> Contact Us</button>
+                    <script>
+                        document.getElementById("cont").onclick = function () {
+                            window.location.href = "https://maps.app.goo.gl/33P9NphK4Uit1HZe9";
+                        }        
+                </script>
+            </div>
+        </div>
+    </section>
+    <img  src="allpet.png" alt="">
+    <img id="dogimgcliclk" src="dog.png" alt="">
+    <script>
+        document.getElementById("dogimgcliclk").onclick = function () {
+            window.location.href = "product.html";
+        }        
+</script>
+    
+
+    <footer>
+
+        <ul id="footer">
+            Products
+            <li><a href="Product.html">Food &amp; Treats</a></li>
+            <li><a href="Product.html">Toys</a></li>
+            <li><a href="Product.html">Beds &amp; Furniture</a></li>
+            <li><a href="Product.html">Outdoor Supplies</a></li>
+            <li><a href="Product.html">Clothing</a></li>
+            <li><a href="Product.html">Aquariums</a></li>
+            <li><a href="Product.html">Rocks &amp; Decorations</a></li>
+        </ul>
+
+        <ul>
+            Shop by Pet
+            <li><a href="Product.html">Dogs</a></li>
+            <li><a href="Product.html">Cats</a></li>
+            <li><a href="Product.html">Birds</a></li>
+            <li><a href="Product.html">Fish</a></li>
+        </ul>
+
+
+        <ul>
+            Our Services
+            <li><a href="Services.html">Grooming</a></li>
+            <li><a href="Services.html">Boarding</a></li>
+        </ul>
+        <ul>
+            Our Company
+            <li><a href="#">Locations &amp; Hours</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+
+
+    </footer>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

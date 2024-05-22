@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <style>
+        .card {
+            margin-top: 40px;
+            align-items: center;
+            justify-content: center;
+            width: 80%;
+            height: hv;
+            padding: .8em;
+            background: #92ded6;
+            position: inherit;
+
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
+        }
+
+        .card-img {
+            background: var(--brand-02) url("birdtoy.jpg") no-repeat center right;
+            height: 200px;
+            width: 200px;
+            border-radius: .5rem;
+            transition: .3s ease;
+        }
+
+        .card-img2 {
+            background: var(--brand-02) url("birdfood.jpg") no-repeat center right;
+            height: 200px;
+            width: 200px;
+            justify-items: center;
+            
+            border-radius: .5rem;
+            transition: .3s ease;
+        }
+
+        .card-info {
+            padding-top: 10%;
+        }
+
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .card-footer {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+        }
+
+        /*Text*/
+        .text-title {
+            font-weight: 900;
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+
+        .text-body {
+            font-size: .9em;
+            padding-bottom: 10px;
+        }
+
+        /*Button*/
+        .card-button{
+            height: 50px;
+            width: 100px;
+            border: 1px solid #252525;
+            display: flex;
+            padding: .3em;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: .3s ease-in-out;
+        }
+        
+        .card-button:hover {
+            border: 1px solid #ffcaa6;
+            background-color: #ffcaa6;
+        }
+        .buy {
+            padding-left: 250px;    
+            font-style: bold;
+        }
+    </style>
+    </head>
+
+    <body>
+         <div class="banner">Get free delivery on orders over 80Rs</div>
+        <nav>
+
+            <div id="logo">
+                <img src="logo.png">
+                <div> <label herf="index.ht">SM'S <br> Pet Store </label> </div>
+            </div>
+            <script>
+                document.getElementById("logo").onclick = function () {
+                    window.location.href = "index.html";
+                };
+            </script>
+
+            <ul class="navigation-menu">
+                <li><a href="Product.html">Products</a>
+
+
+                <li><a href="Services.html">Services</a>
+
+                </li>
+                <li><a href="index.html  ">Locations &amp; Hours</a>
+                </li>
+                <li>
+                    <a href="index.html">About Us</a>
+                </li>
+            </ul>
+            <div id="utility">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="card">
+            <div class="card-img"></div>
+            <div class="card-info">
+                <p class="text-title">
+                    Boltz Bird Ladder and Hanging chewable Wooden Swing Bird Toys for Budgies,Cockatiel,Finches,Kannur Birds- Made with Bamboo- 3 Piece</p>
+                <p class="text-body"></p>
+            </div>
+            <div class="card-footer">
+                <span class="text-title">700Rs</span>
+                <span class="buy"> buy now -- >  </span>
+                <div class="card-button">
+                    <button id="birdtoy"><img src="buyImage.png" alt=""> </button>
+                    <script>
+                        document.getElementById("birdtoy").onclick = function () {
+                            window.location.href = "https://www.amazon.in/Hanging-chewable-Budgies-Cockatiel-Finches/dp/B08MQHNDPS/ref=sr_1_4?crid=MPH8LQ73AEW3&dib=eyJ2IjoiMSJ9.8drPLrkQjEu77gsej8_CwAGZxQIWSw11BAtlw6DL6NhFNfMAsWf4oL11_0nHI1r5H1ZvpGIrkwyZp4X8LMnzGA16hYT7cBIR4GKISZHGwbFlZIdiEVVTP_xltJbsOOOfe9yntBVQUnMRG6GrjnOdow5A68E6fU6b3PB2FOhLYMjbX3JprJ5a9g19Y8dYAqOjAtwhTUx3vYbUBqW2Hx-vRWP5dwTM2Ra7519q8-n1ZUZUotaXqJdw0EUSlkYoeMoFTzTkTnl4LnwZtWj7-fTyxhu8kFNV-_dVvFe8MahKU-8.HAhEzz2OqW4pGrahkqA-Q3nKeo_qbF3MmQH-l0rcj9I&dib_tag=se&keywords=bird%2Btoys&qid=1713251955&s=pet-supplies&sprefix=bird%2Btoys%2Cpets%2C194&sr=1-4&th=1";
+                        }        
+                </script>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img2"></div>
+            <div class="card-info">
+                <p class="text-title">Nature Forever All Life Stages Bird Seeds Feeder Mix, Millet, 900g, 1 Piece, All breed sizes</p>
+                <p class="text-body"></p>
+            </div>
+            <div class="card-footer">
+                <span class="text-title">300Rs</span>
+                <span class="buy"> buy now -- >  </span>
+                <div class="card-button">
+                    <button id="birdfood"><img src="buyImage.png" alt=""> </button>
+                    <script>
+                        document.getElementById("birdfood").onclick = function () {
+                            window.location.href = "https://www.amazon.in/Nature-Forever-Bird-Feeder-Mix/dp/B01MQ11XVM/ref=sr_1_4?crid=2YIHTB8T58R8X&dib=eyJ2IjoiMSJ9.7bhivhuh09rxlT5_WBFn-2bENad0msQu7x_q633j5oClOI5XX5PDbq4cmvDprNhK5oMrl56ZFHTQVaNeDJOoN1BwKMtzE1LJ481Bxi21QppmXHEEF8wWNSqwoQm0vSdpGGFkUiJ73rh5hudqDzEdwXdjtFOhnVd0OoptORJq3V_AR9ZEVjYWsfN0X3XVAlKnqsNGKIhSPwn6VG8Uxowv2rAEJK-Z2TIquCo-LaEN3k_nFICqK7s9oidWMQ308sNqj3CHGjI0HBQy6cuBbNZXzhTyQtuRiveQU4-Okejj7pg.gWRageQeJO4MRncIFd-05f4RBggPeK7_orjruFcGgjg&dib_tag=se&keywords=bird%2Bfood&qid=1713251937&s=pet-supplies&sprefix=bird%2Bfood%2Cpets%2C198&sr=1-4&th=1";
+                        }        
+                </script>
+
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

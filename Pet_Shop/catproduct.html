@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <style>
+        .card {
+            margin-top: 40px;
+            align-items: center;
+            justify-content: center;
+            width: 80%;
+            height: hv;
+            padding: .8em;
+            background: #92ded6;
+            position: inherit;
+
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
+        }
+
+        .card-img {
+            background: var(--brand-02) url("catshelf.jpg") no-repeat center right;
+            height: 200px;
+            width: 200px;
+            border-radius: .5rem;
+            transition: .3s ease;
+        }
+
+        .card-img2 {
+            background: var(--brand-02) url("catfood.jpg") no-repeat center right;
+            height: 200px;
+            width: 200px;
+            justify-items: center;
+            
+            border-radius: .5rem;
+            transition: .3s ease;
+        }
+
+        .card-info {
+            padding-top: 10%;
+        }
+
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .card-footer {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+        }
+
+        /*Text*/
+        .text-title {
+            font-weight: 900;
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+
+        .text-body {
+            font-size: .9em;
+            padding-bottom: 10px;
+        }
+
+        /*Button*/
+        .card-button{
+            height: 50px;
+            width: 100px;
+            border: 1px solid #252525;
+            display: flex;
+            padding: .3em;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: .3s ease-in-out;
+        }
+        
+        .card-button:hover {
+            border: 1px solid #ffcaa6;
+            background-color: #ffcaa6;
+        }
+        .buy {
+            padding-left: 250px;    
+            font-style: bold;
+        }
+    </style>
+    </head>
+
+    <body>
+         <div class="banner">Get free delivery on orders over 80Rs</div>
+        <nav>
+
+            <div id="logo">
+                <img src="logo.png">
+                <div> <label herf="index.ht">SM'S <br> Pet Store </label> </div>
+            </div>
+            <script>
+                document.getElementById("logo").onclick = function () {
+                    window.location.href = "index.html";
+                };
+            </script>
+
+            <ul class="navigation-menu">
+                <li><a href="Product.html">Products</a>
+
+
+                <li><a href="Services.html">Services</a>
+
+                </li>
+                <li><a href="index.html  ">Locations &amp; Hours</a>
+                </li>
+                <li>
+                    <a href="index.html">About Us</a>
+                </li>
+            </ul>
+            <div id="utility">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="card">
+            <div class="card-img"></div>
+            <div class="card-info">
+                <p class="text-title">CAT AMAZING - Best Interactive Cat Toy Ever! Treat Maze & Puzzle Feeder for Cats </p>
+                <p class="text-body"></p>
+            </div>
+            <div class="card-footer">
+                <span class="text-title">700Rs</span>
+                <span class="buy"> buy now -- >  </span>
+                <div class="card-button">
+                    <button id="cattoy"><img src="buyImage.png" alt=""> </button>
+                    <script>
+                        document.getElementById("cattoy").onclick = function () {
+                            window.location.href = "https://www.amazon.in/Cat-Amazing-Interactive-Treat-Puzzle/dp/B009R3SFBC";
+                        }        
+                </script>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img2"></div>
+            <div class="card-info">
+                <p class="text-title">Purepet Dry Cat Adult Food, Ocean Fish Flavour, 2.8 kg Pack</p>
+                <p class="text-body"></p>
+            </div>
+            <div class="card-footer">
+                <span class="text-title">300Rs</span>
+                <span class="buy"> buy now -- >  </span>
+                <div class="card-button">
+                    <button id="catfood"><img src="buyImage.png" alt=""> </button>
+                    <script>
+                        document.getElementById("catfood").onclick = function () {
+                            window.location.href = "https://www.amazon.in/Purepet-Adult-Food-Ocean-Fish/dp/B0C6MWTP4S/ref=sr_1_4?crid=6U6B8SOPMZDQ&dib=eyJ2IjoiMSJ9.XFQWRCht50Sq3y38kFRDm167qUCbMsWyB0IkqgyETPcK5SmJcw5NBQXn1tom_zYBWz6LvHQgJMBckOpT9te3tiYOwatqwDJ6Ymn6gWbSgtSfK_cUCloWSSME5TrgDGx4jN_h_hwWiae240BnFJkx5NMDC_VGGvU5ErKgu38nn9xIUm7jAg5P4KeXoc3-UIHyXkD6bpJ1vuCAp_EDPKzL8Di29jPBzzQ2UCKWXp88oWBo8XrkQRPtOiYKTDDOssmAMZsKLO8TsQS4MrdpOambFHBs4xSKjm_HLYGPZHAe7hw.ysLWpG70UM8-IdhTnFmrQEwkIcLY-9BXpNhmncs1HfM&dib_tag=se&keywords=cat%2Bfood&qid=1713251367&s=pet-supplies&sprefix=catfood%2Cpets%2C267&sr=1-4&th=1";
+                        }        
+                </script>
+
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
